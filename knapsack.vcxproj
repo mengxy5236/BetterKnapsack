@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="knapsack01.cpp" />
+    <ClCompile Include="greedy01.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="greedy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\knapsack01_data1.txt" />
+    <Text Include="data\knapsack01_data2.txt" />
+    <Text Include="data\knapsack01_data3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
